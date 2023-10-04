@@ -18,7 +18,14 @@ Multiple libraries, essential for data manipulation, IFC file handling, and Exce
 import ifcopenshell
 import ifcopenshell.geom
 import ifcopenshell.util
-...
+from datetime import datetime
+from progress.bar import ChargingBar
+from progress.bar import Bar
+from alive_progress import alive_bar
+import uuid
+import xlrd
+import os
+import time
 import pandas as pd
 import os
 import numpy as np
